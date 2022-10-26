@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 
 const routes = {
 	users: require('./routes/users'),
+	dramas: require('./routes/dramas'),
 	instruments: require('./routes/instruments'),
 	orchestras: require('./routes/orchestras'),
 	// Add more routes here...
@@ -13,6 +14,9 @@ const app = express();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+
+//setting middleware
+app.use(express.static(__dirname + '/public')); //Serves resources from public folder
 
 // We create a wrapper to workaround async errors not being transmitted correctly.
 function makeHandlerAwareOfAsyncErrors(handler) {
