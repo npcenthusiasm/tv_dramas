@@ -8,4 +8,12 @@ function getIdParam(req) {
 	throw new TypeError(`Invalid ':id' param: "${id}"`);
 }
 
-module.exports = { getIdParam };
+
+function addImagePathPrifix (imgFileName) {
+	return '/images/' + imgFileName
+}
+
+module.exports = {
+	getIdParam,
+	addImagePathPrifix
+};

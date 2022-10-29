@@ -1,0 +1,968 @@
+{
+	"status": {
+		"type": "OK",
+		"subtype": null,
+		"message": null
+	},
+	"data": {
+		"id": "06001294",
+		"title": "SPY X FAMILY 間諜家家酒",
+		"title_type": "miniseries",
+		"copyright": "",
+		"cover": "https://images.kktv.com.tw/covers/81/81c43351a6fda797a4b69d36461c16a4417d7711.xs.jpg",
+		"stills": ["https://images.kktv.com.tw/stills/03/0368eaf4389e55b7582810e88a8ad6f1a64e8e2f.xs.jpg"],
+		"content_labels": [],
+		"content_labels_for_expired_user": [],
+		"content_labels_for_freetrial_user": [],
+		"title_aliases": null,
+		"available": true,
+		"is_ending": false,
+		"is_containing_avod": true,
+		"reverse_display_order": false,
+		"is_validated": true,
+		"free_trial": true,
+		"child_lock": false,
+		"end_year": 2022,
+		"release_year": 2022,
+		"title_extra": {
+			"id": "06001294extra"
+		},
+		"review": {
+			"content": "2022春季動漫 2022秋季動漫\n★FAMILY，請小心輕放！間諜 x 殺手 x 超能力者同一屋簷下！？\n★《進擊的巨人》WIT STUDIO X 《戀上換裝娃娃》CloverWorks 強強聯手，春季必看間諜動作喜劇\n★日本漫畫銷量累計突破1250萬本，「這本漫畫真厲害！2020」男性部門NO.1\n★星野源獻唱片尾曲"
+		},
+		"release_info": "10/1起每週六23:00更新",
+		"status": "license_valid",
+		"summary": "這是個世界各國都在檯面下進行激烈情報戰的時代，東國與西國，兩國之間已持續冷戰了十多年。隸屬於西國情報局間諜–黃昏，被指派一項機密任務，奉命接近威脅東西和平的危險人物，要刺探出東國國家統一黨黨魁─唐納文‧戴斯蒙德的戰爭計畫。任務內容是在一週內組好家庭並潛入戴斯蒙德兒子所就讀的名校。於是黃昏扮起精神科醫生─洛伊德‧佛傑開始組織家庭。然而他找到的女兒安妮亞是會讀心的超能力者，妻子約兒則是位暗殺者，由於利害一致，三人便互相隱瞞真實身分，並展開共同生活…",
+		"latest_update_info": "更新至第16集",
+		"total_episode_counts": {
+			"0600129401": 16
+		},
+		"total_series_count": 1,
+		"rating": 0,
+		"user_rating_count": 1870,
+		"user_rating": 4.971122994652403,
+		"wiki_orig": "",
+		"wiki_zh": "",
+		"ost": {
+			"artist_name": "星野源 (Gen Hoshino)",
+			"image": "https://i.kfs.io/album/tw/166062203,0v1/fit/500x500.jpg",
+			"title": "片尾曲：喜劇",
+			"url": "https://www.kkbox.com/tw/tc/song/HUP00SbQ38tfNt2bfNt2b0XL-index.html?album=www.kkbox.com%2Ftw%2Ftc%2Fsong%2FHUP00SbQ38tfNt2bfNt2b0XL-index.html"
+		},
+		"country": {
+			"id": "643e60a1c4ae7e76a7fd2d755597eb295d3c2f08c2df501ef2eac1fbbc0a2e5d",
+			"title": "Japan",
+			"collection_type": "country",
+			"collection_name": "Japan"
+		},
+		"content_agents": [{
+			"id": "40e01ca058458ae0ee9360d4cee9e033fe7c0e0e35856653b3c143ec6d610f4d",
+			"collection_type": "content_agent",
+			"collection_name": "木棉花"
+		}],
+		"content_providers": null,
+		"themes": [{
+			"id": "aac08f74f738a22247ea34e54e15800c7e98fa633a4045558ced18aeba922e7e",
+			"collection_type": "theme",
+			"collection_name": "歷史軍武"
+		}, {
+			"id": "e2597a830642a83afb514c9faba90d4225721c6e1df01730cea49b966b5e46d5",
+			"collection_type": "theme",
+			"collection_name": "免費"
+		}],
+		"genres": [{
+			"id": "2f62e4c108547bc4a667ea8a3fb9c83fa4dc327f5345e0d470e271ea9cda3059",
+			"title": "動漫",
+			"collection_type": "genre",
+			"collection_name": "動漫"
+		}],
+		"tags": null,
+		"directors": [{
+			"id": "8978670590e8e817239ddcf5112d42e636d21a31302f42aaf0758d5f2411e190",
+			"collection_type": "figure",
+			"collection_name": "古橋一浩"
+		}],
+		"writers": [{
+			"id": "32ce115f488e24c31fa6b8f7f553842ddd51a5034b781e68c483ca3d695a5a9d",
+			"collection_type": "figure",
+			"collection_name": "遠藤達哉"
+		}],
+		"producers": [{
+			"id": "4c34c971e8cff4b62d206bc8aa5a1f60b253da063bdb83b1e3211a30213d029a",
+			"collection_type": "figure",
+			"collection_name": "WIT STUDIO"
+		}, {
+			"id": "2ec02a32f715d6ee3dcbe185329b6417d06f51f1489f19b308b8a56bf2fa7909",
+			"collection_type": "figure",
+			"collection_name": "CloverWorks"
+		}],
+		"casts": [{
+			"id": "03f96e9ba912a9beb264fdff5078b52de99220c865850dc8e22f0e378e5ec786",
+			"collection_type": "figure",
+			"collection_name": "江口拓也"
+		}, {
+			"id": "1a5460b507be954ea62b94ac195b45f6d0c12d0c95be78385a2049929a57a625",
+			"collection_type": "figure",
+			"collection_name": "早見沙織"
+		}, {
+			"id": "7887a5df95f818d2b0d7850557d67b29fa6fecb33a05bd4dfd6151729e637e03",
+			"collection_type": "figure",
+			"collection_name": "種崎敦美"
+		}],
+		"series": [{
+			"avod_episode_hint": "想要更好的畫質？升級VIP享受高畫質",
+			"id": "0600129401",
+			"title": "第1季",
+			"episodes": [{
+				"id": "06001294010001",
+				"title": "第1集",
+				"series_title": "第1季",
+				"series_id": "0600129401",
+				"content_agent": "木棉花",
+				"content_provider": "",
+				"duration": 1449.9070,
+				"end_offset": 1419000,
+				"end_year": 2022,
+				"release_year": 2022,
+				"start_year": 2022,
+				"available": true,
+				"free_trial": true,
+				"has_subtitles": false,
+				"is_ending": false,
+				"is_validated": true,
+				"offline_mode": false,
+				"play_zone": true,
+				"is_avod": true,
+				"roaming_mode": false,
+				"secure_playback": false,
+				"license_end": 1822319999,
+				"license_start": 1649433600,
+				"publish_time": 1649516400,
+				"pub": 1649516400,
+				"unpub": 1822319999,
+				"still": "https://images.kktv.com.tw/stills/f1/f16ca976dbc1f8d6ef55ff7ba2d5bcbe322d873c.xs.jpg",
+				"subtitles": null,
+				"mezzanines": {
+					"dash": {
+						"size": 4678820890,
+						"sizes": {
+							"1080p": 4678820890,
+							"720p": 2490334164,
+							"480p": 1521787589,
+							"360p": 727946108,
+							"240p": 289926303
+						},
+						"uri": "https://theater.kktv.com.tw/94/06001294010001_a052cb959a2eff447e54541d8e575ed9/1651819613e15fc8c728_dash.mpd"
+					},
+					"hls": {
+						"size": 4865887892,
+						"sizes": {
+							"1080p": 4865887892,
+							"720p": 2630131298,
+							"480p": 1645644445,
+							"360p": 846745688,
+							"240p": 401624239
+						},
+						"uri": "https://theater.kktv.com.tw/94/06001294010001_a052cb959a2eff447e54541d8e575ed9/1651819613e15fc8c728_hls.m3u8"
+					}
+				}
+			}, {
+				"id": "06001294010002",
+				"title": "第2集",
+				"series_title": "第1季",
+				"series_id": "0600129401",
+				"content_agent": "木棉花",
+				"content_provider": "",
+				"duration": 1449.9490,
+				"end_offset": 1419000,
+				"end_year": 2022,
+				"release_year": 2022,
+				"start_year": 2022,
+				"available": true,
+				"free_trial": true,
+				"has_subtitles": false,
+				"is_ending": false,
+				"is_validated": true,
+				"offline_mode": false,
+				"play_zone": true,
+				"is_avod": true,
+				"roaming_mode": false,
+				"secure_playback": false,
+				"license_end": 1822319999,
+				"license_start": 1649433600,
+				"publish_time": 1650121200,
+				"pub": 1650121200,
+				"unpub": 1822319999,
+				"still": "https://images.kktv.com.tw/stills/ac/ac451eb6d135cee7208d301923fbbf672b38889b.xs.jpg",
+				"subtitles": null,
+				"mezzanines": {
+					"dash": {
+						"size": 4824806793,
+						"sizes": {
+							"1080p": 4824806793,
+							"720p": 2564331953,
+							"480p": 1567516664,
+							"360p": 749510536,
+							"240p": 294013408
+						},
+						"uri": "https://theater.kktv.com.tw/94/06001294010002_43c93df011a81090bd9292b05acd4b78/16518196094930efc831_dash.mpd"
+					},
+					"hls": {
+						"size": 5013923642,
+						"sizes": {
+							"1080p": 5013923642,
+							"720p": 2704154885,
+							"480p": 1690640534,
+							"360p": 868519451,
+							"240p": 405985720
+						},
+						"uri": "https://theater.kktv.com.tw/94/06001294010002_43c93df011a81090bd9292b05acd4b78/16518196094930efc831_hls.m3u8"
+					}
+				}
+			}, {
+				"id": "06001294010003",
+				"title": "第3集",
+				"series_title": "第1季",
+				"series_id": "0600129401",
+				"content_agent": "木棉花",
+				"content_provider": "",
+				"duration": 1449.9910,
+				"end_offset": 1419000,
+				"end_year": 2022,
+				"release_year": 2022,
+				"start_year": 2022,
+				"available": true,
+				"free_trial": true,
+				"has_subtitles": false,
+				"is_ending": false,
+				"is_validated": true,
+				"offline_mode": false,
+				"play_zone": true,
+				"is_avod": true,
+				"roaming_mode": false,
+				"secure_playback": false,
+				"license_end": 1822319999,
+				"license_start": 1649433600,
+				"publish_time": 1650726000,
+				"pub": 1650726000,
+				"unpub": 1822319999,
+				"still": "https://images.kktv.com.tw/stills/70/708630edae336ad6030a2763773da3d1dc149564.xs.jpg",
+				"subtitles": null,
+				"mezzanines": {
+					"dash": {
+						"size": 5970024744,
+						"sizes": {
+							"1080p": 5970024744,
+							"720p": 3127276789,
+							"480p": 1902885538,
+							"360p": 903457492,
+							"240p": 339748841
+						},
+						"uri": "https://theater.kktv.com.tw/94/06001294010003_d3cc5463b0920930a02022f7226450ab/16518196152109d67939_dash.mpd"
+					},
+					"hls": {
+						"size": 6184211615,
+						"sizes": {
+							"1080p": 6184211615,
+							"720p": 3279879642,
+							"480p": 2034337373,
+							"360p": 1026593628,
+							"240p": 453847183
+						},
+						"uri": "https://theater.kktv.com.tw/94/06001294010003_d3cc5463b0920930a02022f7226450ab/16518196152109d67939_hls.m3u8"
+					}
+				}
+			}, {
+				"id": "06001294010004",
+				"title": "第4集",
+				"series_title": "第1季",
+				"series_id": "0600129401",
+				"content_agent": "木棉花",
+				"content_provider": "",
+				"duration": 1449.9490,
+				"end_offset": 1419000,
+				"end_year": 2022,
+				"release_year": 2022,
+				"start_year": 2022,
+				"available": true,
+				"free_trial": true,
+				"has_subtitles": false,
+				"is_ending": false,
+				"is_validated": true,
+				"offline_mode": false,
+				"play_zone": true,
+				"is_avod": true,
+				"roaming_mode": false,
+				"secure_playback": false,
+				"license_end": 1822319999,
+				"license_start": 1649433600,
+				"publish_time": 1651330800,
+				"pub": 1651330800,
+				"unpub": 1822319999,
+				"still": "https://images.kktv.com.tw/stills/b2/b278110bf548bc7d67540d65ca93304c9f2608df.xs.jpg",
+				"subtitles": null,
+				"mezzanines": {
+					"dash": {
+						"size": 6071198903,
+						"sizes": {
+							"1080p": 6071198903,
+							"720p": 3175311462,
+							"480p": 1927067767,
+							"360p": 914411786,
+							"240p": 343075332
+						},
+						"uri": "https://theater.kktv.com.tw/94/06001294010004_898ec052d539af301ade3441a4325244/1651820340ed196ebed7_dash.mpd"
+					},
+					"hls": {
+						"size": 6289878762,
+						"sizes": {
+							"1080p": 6289878762,
+							"720p": 3330532853,
+							"480p": 2060377529,
+							"360p": 1036713535,
+							"240p": 456733935
+						},
+						"uri": "https://theater.kktv.com.tw/94/06001294010004_898ec052d539af301ade3441a4325244/1651820340ed196ebed7_hls.m3u8"
+					}
+				}
+			}, {
+				"id": "06001294010005",
+				"title": "第5集",
+				"series_title": "第1季",
+				"series_id": "0600129401",
+				"content_agent": "木棉花",
+				"content_provider": "",
+				"duration": 1449.9070,
+				"end_offset": 1419000,
+				"end_year": 2022,
+				"release_year": 2022,
+				"start_year": 2022,
+				"available": true,
+				"free_trial": true,
+				"has_subtitles": false,
+				"is_ending": false,
+				"is_validated": true,
+				"offline_mode": false,
+				"play_zone": true,
+				"is_avod": true,
+				"roaming_mode": false,
+				"secure_playback": false,
+				"license_end": 1822319999,
+				"license_start": 1649433600,
+				"publish_time": 1651935600,
+				"pub": 1651935600,
+				"unpub": 1822319999,
+				"still": "https://images.kktv.com.tw/stills/59/59b8107fdc89bddd48f90683097ec1aaf5bf24ee.xs.jpg",
+				"subtitles": null,
+				"mezzanines": {
+					"dash": {
+						"size": 6074598512,
+						"sizes": {
+							"1080p": 6074598512,
+							"720p": 3178826853,
+							"480p": 1934054145,
+							"360p": 918752419,
+							"240p": 343942588
+						},
+						"uri": "https://theater.kktv.com.tw/94/06001294010005_7e8bae51b8ba8f61bd309c2ac93ea9b4/16519028376cd3c2b247_dash.mpd"
+					},
+					"hls": {
+						"size": 6292596380,
+						"sizes": {
+							"1080p": 6292596380,
+							"720p": 3333336193,
+							"480p": 2067567382,
+							"360p": 1042483133,
+							"240p": 456720705
+						},
+						"uri": "https://theater.kktv.com.tw/94/06001294010005_7e8bae51b8ba8f61bd309c2ac93ea9b4/16519028376cd3c2b247_hls.m3u8"
+					}
+				}
+			}, {
+				"id": "06001294010006",
+				"title": "第6集",
+				"series_title": "第1季",
+				"series_id": "0600129401",
+				"content_agent": "木棉花",
+				"content_provider": "",
+				"duration": 1449.9490,
+				"end_offset": 1419000,
+				"end_year": 2022,
+				"release_year": 2022,
+				"start_year": 2022,
+				"available": true,
+				"free_trial": true,
+				"has_subtitles": false,
+				"is_ending": false,
+				"is_validated": true,
+				"offline_mode": false,
+				"play_zone": true,
+				"is_avod": true,
+				"roaming_mode": false,
+				"secure_playback": false,
+				"license_end": 1822319999,
+				"license_start": 1649433600,
+				"publish_time": 1652540400,
+				"pub": 1652540400,
+				"unpub": 1822319999,
+				"still": "https://images.kktv.com.tw/stills/30/30f7ebea0e626424dedbc1ab54b7f8eb1b044b90.xs.jpg",
+				"subtitles": null,
+				"mezzanines": {
+					"dash": {
+						"size": 5925957512,
+						"sizes": {
+							"1080p": 5925957512,
+							"720p": 3102616819,
+							"480p": 1885992162,
+							"360p": 894257495,
+							"240p": 337079793
+						},
+						"uri": "https://theater.kktv.com.tw/94/06001294010006_e83c0e4ea5832e4903b1b8a6b906f66e/16525295245e1a4c44f8_dash.mpd"
+					},
+					"hls": {
+						"size": 6139084066,
+						"sizes": {
+							"1080p": 6139084066,
+							"720p": 3253685556,
+							"480p": 2016879059,
+							"360p": 1016414249,
+							"240p": 450934139
+						},
+						"uri": "https://theater.kktv.com.tw/94/06001294010006_e83c0e4ea5832e4903b1b8a6b906f66e/16525295245e1a4c44f8_hls.m3u8"
+					}
+				}
+			}, {
+				"id": "06001294010007",
+				"title": "第7集",
+				"series_title": "第1季",
+				"series_id": "0600129401",
+				"content_agent": "木棉花",
+				"content_provider": "",
+				"duration": 1449.9910,
+				"end_offset": 1419000,
+				"end_year": 2022,
+				"release_year": 2022,
+				"start_year": 2022,
+				"available": true,
+				"free_trial": true,
+				"has_subtitles": false,
+				"is_ending": false,
+				"is_validated": true,
+				"offline_mode": false,
+				"play_zone": true,
+				"is_avod": true,
+				"roaming_mode": false,
+				"secure_playback": false,
+				"license_end": 1822319999,
+				"license_start": 1649433600,
+				"publish_time": 1653145200,
+				"pub": 1653145200,
+				"unpub": 1822319999,
+				"still": "https://images.kktv.com.tw/stills/98/9808ac413ddcc1be134e7d45aa8a44b8a3e82028.xs.jpg",
+				"subtitles": null,
+				"mezzanines": {
+					"dash": {
+						"size": 7632771473,
+						"sizes": {
+							"1080p": 7632771473,
+							"720p": 3959038026,
+							"480p": 2397516618,
+							"360p": 1132283471,
+							"240p": 405211584
+						},
+						"uri": "https://theater.kktv.com.tw/94/06001294010007_c10155b53b17bdcd79cea83127c3b712/1653109351136514f19f_dash.mpd"
+					},
+					"hls": {
+						"size": 7883601067,
+						"sizes": {
+							"1080p": 7883601067,
+							"720p": 4131024359,
+							"480p": 2540384232,
+							"360p": 1260042179,
+							"240p": 520546769
+						},
+						"uri": "https://theater.kktv.com.tw/94/06001294010007_c10155b53b17bdcd79cea83127c3b712/1653109351136514f19f_hls.m3u8"
+					}
+				}
+			}, {
+				"id": "06001294010008",
+				"title": "第8集",
+				"series_title": "第1季",
+				"series_id": "0600129401",
+				"content_agent": "木棉花",
+				"content_provider": "",
+				"duration": 1449.9070,
+				"end_offset": 1419000,
+				"end_year": 2022,
+				"release_year": 2022,
+				"start_year": 2022,
+				"available": true,
+				"free_trial": true,
+				"has_subtitles": false,
+				"is_ending": false,
+				"is_validated": true,
+				"offline_mode": false,
+				"play_zone": true,
+				"is_avod": true,
+				"roaming_mode": false,
+				"secure_playback": false,
+				"license_end": 1822319999,
+				"license_start": 1649433600,
+				"publish_time": 1653750000,
+				"pub": 1653750000,
+				"unpub": 1822319999,
+				"still": "https://images.kktv.com.tw/stills/b1/b112a1f01daf49c67d1060d61de26bbc0e3b14cb.xs.jpg",
+				"subtitles": null,
+				"mezzanines": {
+					"dash": {
+						"size": 5418077723,
+						"sizes": {
+							"1080p": 5418077723,
+							"720p": 2850508462,
+							"480p": 1734593339,
+							"360p": 825945322,
+							"240p": 318502520
+						},
+						"uri": "https://theater.kktv.com.tw/94/06001294010008_2c09d9a263cb6bacdbbf9757d3129af9/16539033424aaf985a6f_dash.mpd"
+					},
+					"hls": {
+						"size": 5619839532,
+						"sizes": {
+							"1080p": 5619839532,
+							"720p": 2996957769,
+							"480p": 1861680588,
+							"360p": 945339364,
+							"240p": 433522193
+						},
+						"uri": "https://theater.kktv.com.tw/94/06001294010008_2c09d9a263cb6bacdbbf9757d3129af9/16539033424aaf985a6f_hls.m3u8"
+					}
+				}
+			}, {
+				"id": "06001294010009",
+				"title": "第9集",
+				"series_title": "第1季",
+				"series_id": "0600129401",
+				"content_agent": "木棉花",
+				"content_provider": "",
+				"duration": 1449.9490,
+				"end_offset": 1419000,
+				"end_year": 2022,
+				"release_year": 2022,
+				"start_year": 2022,
+				"available": true,
+				"free_trial": true,
+				"has_subtitles": false,
+				"is_ending": false,
+				"is_validated": true,
+				"offline_mode": false,
+				"play_zone": true,
+				"is_avod": true,
+				"roaming_mode": false,
+				"secure_playback": false,
+				"license_end": 1822319999,
+				"license_start": 1649433600,
+				"publish_time": 1654354800,
+				"pub": 1654354800,
+				"unpub": 1822319999,
+				"still": "https://images.kktv.com.tw/stills/17/17cba4f8d8f277f6c2120014b30000677035534b.xs.jpg",
+				"subtitles": null,
+				"mezzanines": {
+					"dash": {
+						"size": 5601505324,
+						"sizes": {
+							"1080p": 5601505324,
+							"720p": 2943039782,
+							"480p": 1790214331,
+							"360p": 851009866,
+							"240p": 325383055
+						},
+						"uri": "https://theater.kktv.com.tw/94/06001294010009_6bc0e6bff298a31989687ca7e733c497/165432865790ec9644a5_dash.mpd"
+					},
+					"hls": {
+						"size": 5808495694,
+						"sizes": {
+							"1080p": 5808495694,
+							"720p": 3092741217,
+							"480p": 1921182425,
+							"360p": 972915779,
+							"240p": 439334547
+						},
+						"uri": "https://theater.kktv.com.tw/94/06001294010009_6bc0e6bff298a31989687ca7e733c497/165432865790ec9644a5_hls.m3u8"
+					}
+				}
+			}, {
+				"id": "06001294010010",
+				"title": "第10集",
+				"series_title": "第1季",
+				"series_id": "0600129401",
+				"content_agent": "木棉花",
+				"content_provider": "",
+				"duration": 1449.9490,
+				"end_offset": 1419000,
+				"end_year": 2022,
+				"release_year": 2022,
+				"start_year": 2022,
+				"available": true,
+				"free_trial": true,
+				"has_subtitles": false,
+				"is_ending": false,
+				"is_validated": true,
+				"offline_mode": false,
+				"play_zone": true,
+				"is_avod": true,
+				"roaming_mode": false,
+				"secure_playback": false,
+				"license_end": 1822319999,
+				"license_start": 1649433600,
+				"publish_time": 1654959600,
+				"pub": 1654959600,
+				"unpub": 1822319999,
+				"still": "https://images.kktv.com.tw/stills/82/820830c39ef9fd8024a18ceb5a697e9219e3cc68.xs.jpg",
+				"subtitles": null,
+				"mezzanines": {
+					"dash": {
+						"size": 7034646515,
+						"sizes": {
+							"1080p": 7034646515,
+							"720p": 3656922172,
+							"480p": 2218417620,
+							"360p": 1049642730,
+							"240p": 381551179
+						},
+						"uri": "https://theater.kktv.com.tw/94/06001294010010_4e76243409888947e469e5e652ff71a8/1654931132ecff9932e0_dash.mpd"
+					},
+					"hls": {
+						"size": 7272944184,
+						"sizes": {
+							"1080p": 7272944184,
+							"720p": 3822065564,
+							"480p": 2357617074,
+							"360p": 1175908639,
+							"240p": 495882558
+						},
+						"uri": "https://theater.kktv.com.tw/94/06001294010010_4e76243409888947e469e5e652ff71a8/1654931132ecff9932e0_hls.m3u8"
+					}
+				}
+			}, {
+				"id": "06001294010011",
+				"title": "第11集",
+				"series_title": "第1季",
+				"series_id": "0600129401",
+				"content_agent": "木棉花",
+				"content_provider": "",
+				"duration": 1449.9070,
+				"end_offset": 1419000,
+				"end_year": 2022,
+				"release_year": 2022,
+				"start_year": 2022,
+				"available": true,
+				"free_trial": true,
+				"has_subtitles": false,
+				"is_ending": false,
+				"is_validated": true,
+				"offline_mode": false,
+				"play_zone": true,
+				"is_avod": true,
+				"roaming_mode": false,
+				"secure_playback": false,
+				"license_end": 1822319999,
+				"license_start": 1649433600,
+				"publish_time": 1655564400,
+				"pub": 1655564400,
+				"unpub": 1822319999,
+				"still": "https://images.kktv.com.tw/stills/e1/e1b69f566a82cde7932c2e17382e254af95a242f.xs.jpg",
+				"subtitles": null,
+				"mezzanines": {
+					"dash": {
+						"size": 5463606253,
+						"sizes": {
+							"1080p": 5463606253,
+							"720p": 2872729737,
+							"480p": 1745357449,
+							"360p": 828243424,
+							"240p": 319036086
+						},
+						"uri": "https://theater.kktv.com.tw/94/06001294010011_1bd1eac66c1cb271b3be5a217d6f7482/1655542043cebc0a8c54_dash.mpd"
+					},
+					"hls": {
+						"size": 5666236556,
+						"sizes": {
+							"1080p": 5666236556,
+							"720p": 3018706374,
+							"480p": 1873279844,
+							"360p": 948239178,
+							"240p": 432072286
+						},
+						"uri": "https://theater.kktv.com.tw/94/06001294010011_1bd1eac66c1cb271b3be5a217d6f7482/1655542043cebc0a8c54_hls.m3u8"
+					}
+				}
+			}, {
+				"id": "06001294010012",
+				"title": "第12集",
+				"series_title": "第1季",
+				"series_id": "0600129401",
+				"content_agent": "木棉花",
+				"content_provider": "",
+				"duration": 1450.0320,
+				"end_offset": 1420000,
+				"end_year": 2022,
+				"release_year": 2022,
+				"start_year": 2022,
+				"available": true,
+				"free_trial": true,
+				"has_subtitles": false,
+				"is_ending": false,
+				"is_validated": true,
+				"offline_mode": false,
+				"play_zone": true,
+				"is_avod": true,
+				"roaming_mode": false,
+				"secure_playback": false,
+				"license_end": 1822319999,
+				"license_start": 1649433600,
+				"publish_time": 1656169200,
+				"pub": 1656169200,
+				"unpub": 1822319999,
+				"still": "https://images.kktv.com.tw/stills/96/96335d060682f9b94b9fe3971293d351076810db.xs.jpg",
+				"subtitles": null,
+				"mezzanines": {
+					"dash": {
+						"size": 5812042912,
+						"sizes": {
+							"1080p": 5812042912,
+							"720p": 3046984142,
+							"480p": 1852031621,
+							"360p": 878029176,
+							"240p": 332833095
+						},
+						"uri": "https://theater.kktv.com.tw/94/06001294010012_75ada0fb9d430891f6d94d50e76c85ae/1656139707fce45da00a_dash.mpd"
+					},
+					"hls": {
+						"size": 6020532864,
+						"sizes": {
+							"1080p": 6020532864,
+							"720p": 3195870528,
+							"480p": 1980743712,
+							"360p": 999072048,
+							"240p": 445159824
+						},
+						"uri": "https://theater.kktv.com.tw/94/06001294010012_75ada0fb9d430891f6d94d50e76c85ae/1656139707fce45da00a_hls.m3u8"
+					}
+				}
+			}, {
+				"id": "06001294010013",
+				"title": "第13集",
+				"series_title": "第1季",
+				"series_id": "0600129401",
+				"content_agent": "木棉花",
+				"content_provider": "",
+				"duration": 1449.9490,
+				"end_offset": 1419000,
+				"end_year": 2022,
+				"release_year": 2022,
+				"start_year": 2022,
+				"available": true,
+				"free_trial": true,
+				"has_subtitles": false,
+				"is_ending": false,
+				"is_validated": true,
+				"offline_mode": false,
+				"play_zone": true,
+				"is_avod": true,
+				"roaming_mode": false,
+				"secure_playback": false,
+				"license_end": 1822319999,
+				"license_start": 1649433600,
+				"publish_time": 1664636400,
+				"pub": 1664636400,
+				"unpub": 1822319999,
+				"still": "https://images.kktv.com.tw/stills/19/19d117c38b09146d0afd3bff444fac26740a4e94.xs.jpg",
+				"subtitles": null,
+				"mezzanines": {
+					"dash": {
+						"size": 5458962288,
+						"sizes": {
+							"1080p": 5458962288,
+							"720p": 2887724228,
+							"480p": 1760752817,
+							"360p": 840578933,
+							"240p": 320820065
+						},
+						"uri": "https://theater.kktv.com.tw/94/06001294010013_78f03dff5c1ab1556924ed3e586525e2/16646068583ec585d750_dash.mpd"
+					},
+					"hls": {
+						"size": 5662050845,
+						"sizes": {
+							"1080p": 5662050845,
+							"720p": 3034743257,
+							"480p": 1890733496,
+							"360p": 961316187,
+							"240p": 432084802
+						},
+						"uri": "https://theater.kktv.com.tw/94/06001294010013_78f03dff5c1ab1556924ed3e586525e2/16646068583ec585d750_hls.m3u8"
+					}
+				}
+			}, {
+				"id": "06001294010014",
+				"title": "第14集",
+				"series_title": "第1季",
+				"series_id": "0600129401",
+				"content_agent": "木棉花",
+				"content_provider": "",
+				"duration": 1449.9490,
+				"end_offset": 1419000,
+				"end_year": 2022,
+				"release_year": 2022,
+				"start_year": 2022,
+				"available": true,
+				"free_trial": true,
+				"has_subtitles": false,
+				"is_ending": false,
+				"is_validated": true,
+				"offline_mode": false,
+				"play_zone": true,
+				"is_avod": true,
+				"roaming_mode": false,
+				"secure_playback": false,
+				"license_end": 1822319999,
+				"license_start": 1649433600,
+				"publish_time": 1665241200,
+				"pub": 1665241200,
+				"unpub": 1822319999,
+				"still": "https://images.kktv.com.tw/stills/86/86969fdd883424c71c26e9dd23bfe7c0431299d1.xs.jpg",
+				"subtitles": null,
+				"mezzanines": {
+					"dash": {
+						"size": 5815993380,
+						"sizes": {
+							"1080p": 5815993380,
+							"720p": 3072905914,
+							"480p": 1873963385,
+							"360p": 895589998,
+							"240p": 337288586
+						},
+						"uri": "https://theater.kktv.com.tw/94/06001294010014_4a33277c9fa4f5b248638241b31502e0/166519609839c544bc12_dash.mpd"
+					},
+					"hls": {
+						"size": 6027437993,
+						"sizes": {
+							"1080p": 6027437993,
+							"720p": 3224686576,
+							"480p": 2006729416,
+							"360p": 1017864198,
+							"240p": 450934139
+						},
+						"uri": "https://theater.kktv.com.tw/94/06001294010014_4a33277c9fa4f5b248638241b31502e0/166519609839c544bc12_hls.m3u8"
+					}
+				}
+			}, {
+				"id": "06001294010015",
+				"title": "第15集",
+				"series_title": "第1季",
+				"series_id": "0600129401",
+				"content_agent": "木棉花",
+				"content_provider": "",
+				"duration": 1449.9910,
+				"end_offset": 1419000,
+				"end_year": 2022,
+				"release_year": 2022,
+				"start_year": 2022,
+				"available": true,
+				"free_trial": true,
+				"has_subtitles": false,
+				"is_ending": false,
+				"is_validated": true,
+				"offline_mode": false,
+				"play_zone": true,
+				"is_avod": true,
+				"roaming_mode": false,
+				"secure_playback": false,
+				"license_end": 1822319999,
+				"license_start": 1649433600,
+				"publish_time": 1665846000,
+				"pub": 1665846000,
+				"unpub": 1822319999,
+				"still": "https://images.kktv.com.tw/stills/4b/4b35741035940a54124805b7aea5218666c3e42d.xs.jpg",
+				"subtitles": null,
+				"mezzanines": {
+					"dash": {
+						"size": 5064606864,
+						"sizes": {
+							"1080p": 5064606864,
+							"720p": 2686073527,
+							"480p": 1638449230,
+							"360p": 783820184,
+							"240p": 305331854
+						},
+						"uri": "https://theater.kktv.com.tw/94/06001294010015_8cc14fc51fe47cfbd764664e34da584a/16658482902544aeec66_dash.mpd"
+					},
+					"hls": {
+						"size": 5260567348,
+						"sizes": {
+							"1080p": 5260567348,
+							"720p": 2830382432,
+							"480p": 1766089038,
+							"360p": 903344393,
+							"240p": 417597408
+						},
+						"uri": "https://theater.kktv.com.tw/94/06001294010015_8cc14fc51fe47cfbd764664e34da584a/16658482902544aeec66_hls.m3u8"
+					}
+				}
+			}, {
+				"id": "06001294010016",
+				"title": "第16集",
+				"series_title": "第1季",
+				"series_id": "0600129401",
+				"content_agent": "木棉花",
+				"content_provider": "",
+				"duration": 1449.9910,
+				"end_offset": 1419000,
+				"end_year": 2022,
+				"release_year": 2022,
+				"start_year": 2022,
+				"available": true,
+				"free_trial": true,
+				"has_subtitles": false,
+				"is_ending": false,
+				"is_validated": true,
+				"offline_mode": false,
+				"play_zone": true,
+				"is_avod": true,
+				"roaming_mode": false,
+				"secure_playback": false,
+				"license_end": 1822319999,
+				"license_start": 1649433600,
+				"publish_time": 1666450800,
+				"pub": 1666450800,
+				"unpub": 1822319999,
+				"still": "https://images.kktv.com.tw/stills/bb/bbb6479d168bb58ae2fbf9ed1867c9d8e2bb42ef.xs.jpg",
+				"subtitles": null,
+				"mezzanines": {
+					"dash": {
+						"size": 4866185745,
+						"sizes": {
+							"1080p": 4866185745,
+							"720p": 2584504558,
+							"480p": 1577352409,
+							"360p": 754588366,
+							"240p": 296901607
+						},
+						"uri": "https://theater.kktv.com.tw/94/06001294010016_bb2c7ecfd458b4a6c862db6df9e153c3/1666419610e053f9c484_dash.mpd"
+					},
+					"hls": {
+						"size": 5057568608,
+						"sizes": {
+							"1080p": 5057568608,
+							"720p": 2725983080,
+							"480p": 1702289434,
+							"360p": 874344573,
+							"240p": 410347453
+						},
+						"uri": "https://theater.kktv.com.tw/94/06001294010016_bb2c7ecfd458b4a6c862db6df9e153c3/1666419610e053f9c484_hls.m3u8"
+					}
+				}
+			}]
+		}],
+		"user_actions": {}
+	}
+}

@@ -6,6 +6,7 @@ const routes = {
 	dramas: require('./routes/dramas'),
 	instruments: require('./routes/instruments'),
 	orchestras: require('./routes/orchestras'),
+	figures: require('./routes/figures'),
 	// Add more routes here...
 	// items: require('./routes/items'),
 };
@@ -72,5 +73,11 @@ for (const [routeName, routeController] of Object.entries(routes)) {
 		);
 	}
 }
+
+
+
+// normal api
+app.get('/api/search_suggestions/:keyword', routes.dramas.searchSuggestions);
+
 
 module.exports = app;
