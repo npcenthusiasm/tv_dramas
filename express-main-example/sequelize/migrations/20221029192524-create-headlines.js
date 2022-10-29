@@ -2,45 +2,34 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
-    await queryInterface.createTable('Dramas', {
+    await queryInterface.createTable('Headlines', {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      title: {
-        type: Sequelize.STRING
-      },
-			summary: {
-        type: Sequelize.STRING
-      },
       img: {
         type: Sequelize.STRING
       },
-      episode: {
+      summary: {
         type: Sequelize.STRING
       },
-      rating: {
+      topic: {
         type: Sequelize.STRING
       },
-			release_info: {
+      displayName: {
         type: Sequelize.STRING
-			},
-			release_year: {
+      },
+      dominantColor: {
         type: Sequelize.STRING
-			},
-			content_agents: {
+      },
+      deeplink: {
         type: Sequelize.STRING
-			},
-			// castId: {
-			// 	type: Sequelize.INTEGER,
-			// 	allowNull: true,
-			// 	references:  {
-			// 		model: 'Casts',
-			// 		key: 'id'
-			// 	}
-			// },
+      },
+      titleId: {
+        type: Sequelize.STRING
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
@@ -52,6 +41,6 @@ module.exports = {
     });
   },
   async down(queryInterface, Sequelize) {
-    await queryInterface.dropTable('Dramas');
+    await queryInterface.dropTable('Headlines');
   }
 };

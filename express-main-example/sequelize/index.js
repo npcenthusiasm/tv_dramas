@@ -1,6 +1,6 @@
 const { Sequelize } = require('sequelize');
 const { applyExtraSetup } = require('./extra-setup');
-const dramasData = require('../images/firms.json')
+// const dramasData = require('../images/firms.json')
 
 // In a real app, you should keep the database connection URL as an environment variable.
 // But for this example, we will just use a local SQLite database.
@@ -10,16 +10,22 @@ const sequelize = new Sequelize({
 	host: 'localhost',
 	username: 'netflix',
 	password: 'asdzxc04',
-	database: 'netflix_db'
+	database: 'netflix_db',
+	define: {
+		freezeTableName: true,
+		timestamps: false
+	}
 	// storage: 'sqlite-example-database/example-db.sqlite',
 	// logQueryParameters: true,
 	// benchmark: true
 });
 
 // const modelDefiners = [
-// 	require('./models/user.model'),
-// 	require('./models/instrument.model'),
-// 	require('./models/orchestra.model'),
+// 	require('./models/user'),
+// 	require('./models/drama'),
+// 	require('./models/Cast'),
+// 	// require('./models/instrument.model'),
+// 	// require('./models/orchestra.model'),
 // 	// Add more models here...
 // 	// require('./models/item'),
 // ];
