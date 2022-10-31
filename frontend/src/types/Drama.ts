@@ -7,6 +7,19 @@ export default interface Drama {
     episode: string;
 }
 
+export interface HeadlineType {
+  id: number;
+  img:string;
+  summary:string;
+  topic:string;
+  displayName:string;
+  dominantColor:string;
+  deeplink:string;
+  titleId:string;
+  createdAt:string;
+  updatedAt:string;
+}
+
 export interface DramaFormType {
   img: string;
   title: string;

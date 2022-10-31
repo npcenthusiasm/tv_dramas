@@ -7,6 +7,8 @@ const routes = {
 	instruments: require('./routes/instruments'),
 	orchestras: require('./routes/orchestras'),
 	figures: require('./routes/figures'),
+	// 首頁
+	home: require('./routes/home'),
 	// Add more routes here...
 	// items: require('./routes/items'),
 };

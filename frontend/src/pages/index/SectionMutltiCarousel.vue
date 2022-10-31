@@ -14,12 +14,12 @@
           class="bg-dark shadow-2 rounded-borders"
         >
           <q-carousel-slide :name="1" class="column no-wrap">
-            <div class="row fit justify-start items-center q-gutter-md q-col-gutter no-wrap">
+            <div class="row fit justify-start items-center q-col-gutter-md  no-wrap">
               <DramaCard class="col-2 bg-dark q-pb-md"  v-for="item in items.slice(0,6)" :key="item.id" :item="item"/>
             </div>
           </q-carousel-slide>
           <q-carousel-slide :name="2" class="column no-wrap">
-            <div class="row fit justify-start items-center q-gutter-md q-col-gutter no-wrap">
+            <div class="row fit justify-start items-center q-col-gutter-md no-wrap">
               <DramaCard class="col-2 bg-dark q-pb-md"  v-for="item in items.slice(6, 12)" :key="item.id" :item="item"/>
             </div>
           </q-carousel-slide>
