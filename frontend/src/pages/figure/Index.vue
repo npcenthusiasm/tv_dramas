@@ -23,7 +23,7 @@
 <script lang="ts">
 import { api } from 'src/boot/axios'
 import DramaCard from 'src/components/DramaCard.vue'
-import Drama from 'src/types/Drama'
+import { DramaType } from '../../components/models'
 import { defineComponent, ref } from 'vue'
 import { useRoute } from 'vue-router'
 
@@ -34,7 +34,7 @@ interface Tag {
 
 interface ResponseData {
   data: {
-    items: Drama []
+    items: DramaType []
     figure: Tag
   }
 }
@@ -44,7 +44,7 @@ export default defineComponent({
     DramaCard
   },
   setup () {
-    const dramas = ref<Drama []>([])
+    const dramas = ref<DramaType []>([])
     const figureTag = ref<Tag>({
       id: -1,
       name: ''

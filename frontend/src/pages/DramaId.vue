@@ -118,17 +118,17 @@
 
 <script lang="ts">
 import { api } from 'src/boot/axios'
-import Drama from 'src/types/Drama'
+import { DramaType } from '../components/models'
 import { defineComponent, ref } from 'vue'
 import { useRoute } from 'vue-router'
 
 interface ResponseData {
-  data: Drama
+  data: DramaType
 }
 
 export default defineComponent({
   setup () {
-    const drama = ref<Drama>()
+    const drama = ref<DramaType>()
     const route = useRoute()
     const id: string = route.params.id && route.params.id.toString()
 

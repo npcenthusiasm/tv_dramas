@@ -44,6 +44,11 @@
           </q-form> -->
           <SearchAcInput />
         </div>
+        <div>
+
+          <q-btn v-if="$store.getters['userModule/user'].id === ''">登入</q-btn>
+          <UserDropdown v-else/>
+        </div>
       </q-toolbar>
     </q-header>
 
@@ -127,12 +132,14 @@ const linksList = [
 import { computed, defineComponent, ref, watch } from 'vue'
 import { api } from 'src/boot/axios'
 import SearchAcInput from 'src/components/SearchAcInput.vue'
+import UserDropdown from '../components/UserDropdown.vue'
 
 export default defineComponent({
   name: 'MainLayout',
 
   components: {
     Footer,
+    UserDropdown,
     SearchAcInput,
     EssentialLink
   },

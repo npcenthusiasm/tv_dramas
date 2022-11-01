@@ -112,7 +112,7 @@
 <script lang="ts">
 import { useQuasar } from 'quasar'
 import { api } from 'src/boot/axios'
-import { DramaFormType } from 'src/types/Drama'
+import { DramaFormType } from '../../components/models'
 import { defineComponent, ref } from 'vue'
 
 // img: "81c43351a6fda797a4b69d36461c16a4417d7711.sm.jpg",

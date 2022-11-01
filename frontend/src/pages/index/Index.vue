@@ -12,12 +12,12 @@
 import { api } from 'src/boot/axios'
 import { defineComponent, onMounted, ref } from 'vue'
 import SectionCard from './SectionCard.vue'
-import Drama, { HeadlineType } from '../../types/Drama'
+import { DramaType, HeadlineType } from '../../components/models'
 import SectionCarousel from './SectionCarousel.vue'
 import SectionMutltiCarousel from './SectionMutltiCarousel.vue'
 
 interface ResponseData {
-  data: Drama []
+  data: DramaType []
 }
 interface ResponseHeadlinesData {
   data: HeadlineType []
@@ -30,7 +30,7 @@ export default defineComponent({
     SectionCard
   },
   setup () {
-    const dramas = ref<Drama []>([])
+    const dramas = ref<DramaType []>([])
     const headlines = ref<HeadlineType []>([])
 
     onMounted(() => {

@@ -30,13 +30,14 @@
 import { useQuasar } from 'quasar'
 import { api } from 'src/boot/axios'
 import { defineComponent, onMounted, ref } from 'vue'
+import { DramaType } from '../../components/models'
 import SectionCard from './SectionCard.vue'
-import Drama from '../../types/Drama'
+// import {Drama} from '../../types/'
 import SectionCarousel from './SectionCarousel.vue'
 import SectionMutltiCarousel from './SectionMutltiCarousel.vue'
 
 interface ResponseData {
-  data: Drama []
+  data: DramaType []
 }
 
 export default defineComponent({
@@ -47,7 +48,7 @@ export default defineComponent({
   },
   setup () {
     const $q = useQuasar()
-    const dramas = ref<Drama []>([])
+    const dramas = ref<DramaType []>([])
 
     const email = ref<string>('')
 
