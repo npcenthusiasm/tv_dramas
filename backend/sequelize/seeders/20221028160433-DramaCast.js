@@ -1,5 +1,5 @@
 'use strict';
-
+console.log(1);
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up (queryInterface, Sequelize) {
@@ -12,26 +12,27 @@ module.exports = {
      *   isBetaMember: false
      * }], {});
     */
+		//  沒 insert 進去要看關聯到的資料是否有值
 		queryInterface.bulkInsert('DramaCasts', [{
-				castId: 25,
-				dramaId: 13,
+				castId: 1,
+				dramaId: 1,
 				createdAt: new Date(),
 				updatedAt: new Date(),
 			},
 			{
-				castId: 26,
-				dramaId: 14,
+				castId: 2,
+				dramaId: 1,
 				createdAt: new Date(),
 				updatedAt: new Date(),
 			},
 			{
-				castId: 27,
-				dramaId: 13,
+				castId: 3,
+				dramaId: 1,
 				createdAt: new Date(),
 				updatedAt: new Date(),
 			},{
-				castId: 28,
-				dramaId: 13,
+				castId: 4,
+				dramaId: 1,
 				createdAt: new Date(),
 				updatedAt: new Date(),
 			}], {});

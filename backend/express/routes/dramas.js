@@ -89,12 +89,17 @@ async function searchSuggestions(req, res) {
 	const searchResult = Dramas.filter(dramaItem => {
 
 		return dramaItem.title.toLowerCase().indexOf(keyword) > -1
-	}).map(dramaItem => dramaItem.title)
+	}).map(dramaItem => {
+		return {
+			name: dramaItem.title,
+			id: dramaItem.id,
+		}
+	})
 
 	// uniq
-	const uniqResult = [...new Set(searchResult)]
+	// const uniqResult = [...new Set(searchResult)]
 
-	res.status(200).json(uniqResult);
+	res.status(200).json(searchResult);
 };
 
 module.exports = {

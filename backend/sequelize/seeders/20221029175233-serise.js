@@ -1,10 +1,10 @@
 'use strict';
 
-var jsonData = require('../../../crawler/episode.json')
+var jsonData = require('../../../crawler/jsons/series.json')
 var data = jsonData.map(it => {
 	return {
 		...it,
-		dramaId: 13, // NOTE: test data 因為它是屬於 Drams key 所以必須要有 drama 才可以新增
+		dramaId: 1, // NOTE: test data 因為它是屬於 Drams key 所以必須要有 drama 才可以新增
 		createdAt: new Date(),
 		updatedAt: new Date(),
 	}
