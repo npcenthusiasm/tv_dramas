@@ -16,7 +16,7 @@
       </q-avatar>
 
     </template>
-      <div class="row no-wrap q-pa-md">
+      <div class="row no-wrap q-pa-md bg-dark text-white">
         <div class="column">
           <div class="text-h6 q-mb-md">Settings</div>
           <q-toggle v-model="mobileData" label="Use Mobile Data" />

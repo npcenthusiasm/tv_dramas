@@ -87,6 +87,7 @@ module.exports = {
     'import/no-unresolved': 'off',
     'import/no-extraneous-dependencies': 'off',
     'prefer-promise-reject-errors': 'off',
+    "@typescript-eslint/no-unsafe-member-access": "error",
 
     // TypeScript
     quotes: ['warn', 'single', { avoidEscape: true }],

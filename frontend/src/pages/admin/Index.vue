@@ -13,7 +13,6 @@
             filled
             v-model="myForm.img"
             label="img"
-            hint="myForm.img"
             lazy-rules
             :rules="[ val => val && val.length > 0 || 'Please type something']"
           />
@@ -24,7 +23,6 @@
             filled
             v-model="myForm.title"
             label="img"
-            hint="myForm.img"
             lazy-rules
             :rules="[ val => val && val.length > 0 || 'Please type something']"
           />
@@ -34,7 +32,6 @@
         filled
         v-model="myForm.summary"
         label="img"
-        hint="myForm.img"
         lazy-rules
         :rules="[ val => val && val.length > 0 || 'Please type something']"
       />
@@ -42,7 +39,6 @@
         filled
         v-model="myForm.episode"
         label="img"
-        hint="myForm.img"
         lazy-rules
         :rules="[ val => val && val.length > 0 || 'Please type something']"
       />
@@ -50,7 +46,6 @@
         filled
         v-model="myForm.rating"
         label="img"
-        hint="myForm.img"
         lazy-rules
         :rules="[ val => val && val.length > 0 || 'Please type something']"
       />
@@ -58,7 +53,6 @@
         filled
         v-model="myForm.content_agents"
         label="img"
-        hint="myForm.img"
         lazy-rules
         :rules="[ val => val && val.length > 0 || 'Please type something']"
       />
@@ -66,7 +60,6 @@
         filled
         v-model="myForm.release_info"
         label="img"
-        hint="release_info"
         lazy-rules
         :rules="[ val => val && val.length > 0 || 'Please type something']"
       />
@@ -74,16 +67,21 @@
         filled
         v-model="myForm.cast_id"
         label="img"
-        hint="myForm.img"
         lazy-rules
       />
             <q-input
         filled
         v-model="myForm.release_info"
         label="img"
-        hint="myForm.img"
         lazy-rules
       />
+<!--
+      <q-date
+        landscape
+        v-model="date"
+      >
+
+      </q-date> -->
 
       <!-- <q-input
         filled
@@ -98,7 +96,7 @@
       /> -->
 
       <!-- <q-toggle v-model="accept" label="I accept the license and terms" /> -->
-
+      <CSMeditor @updateEditorValue="updateEditorValue"/>
       <div>
         <q-btn label="Submit" type="submit" color="primary"/>
         <q-btn label="Reset" type="reset" color="primary" flat class="q-ml-sm" />
@@ -114,6 +112,7 @@ import { useQuasar } from 'quasar'
 import { api } from 'src/boot/axios'
 import { DramaFormType } from '../../components/models'
 import { defineComponent, ref } from 'vue'
+import CSMeditor from '../../components/CSMeditor.vue'
 
 // img: "81c43351a6fda797a4b69d36461c16a4417d7711.sm.jpg",
 // title: "SPY X FAMILY 間諜家家酒",
@@ -128,6 +127,9 @@ import { defineComponent, ref } from 'vue'
 // updatedAt: "2022/10/26",
 
 export default defineComponent({
+  components: {
+    CSMeditor
+  },
   setup () {
     const $q = useQuasar()
 
@@ -145,7 +147,9 @@ export default defineComponent({
       // updatedAt: ''
     })
 
+    const date = ref('2022/10/31')
     return {
+      date,
       myForm,
       onSubmit () {
         api.put('/dramas/1', { ...myForm.value, id: 1 }).then((res) => {
@@ -173,6 +177,9 @@ export default defineComponent({
         //     myForm.value[key] = ''
         //   }
         // })
+      },
+      updateEditorValue (editorValue: string) {
+        console.log('editorValue: ', editorValue)
       }
     }
   }
