@@ -3,20 +3,40 @@ const { addImagePathPrifix } = require('../helpers');
 const { getIdParam } = require('../helpers');
 
 async function getAll(req, res) {
-	console.log(1);
-	// const dramas = await models.Drama.findAll();
-	console.log(2);
+	const per_page = req.query.per_page && Number(req.query.per_page)
+	const page = req.query.page && Number(req.query.page)
+
+	const respData = {
+		dramas: [],
+		total_page: 1,
+		total: 0
+	}
 
 	const dramas = await models.Drama.findAll({
 		include: [models.Cast]
-		//
 	});
-	if (dramas) {
-		dramas.forEach((drama) => {
-			drama.img = addImagePathPrifix(drama.img)
-		})
+
+	dramas.forEach((drama) => {
+		drama.img = addImagePathPrifix(drama.img)
+	})
+
+	if (per_page === undefined || page === undefined || per_page <= 0 || page <= 0) {
+		respData.dramas = dramas
+		res.status(200.).json(respData)
+		return
 	}
-	res.status(200).json(dramas);
+
+	const total = dramas.length
+	const total_page = Math.ceil(dramas.length / per_page)
+	const startIndex = page - 1
+	const endIndex = page
+	const pageDramas = dramas.slice(startIndex * per_page,  endIndex * per_page)
+
+	respData.dramas = pageDramas
+	respData.total_page = total_page
+	respData.total = total
+
+	res.status(200).json(respData)
 };
 
 async function getById(req, res) {
