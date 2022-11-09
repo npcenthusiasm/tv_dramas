@@ -2,7 +2,7 @@
   <q-layout view="lHh Lpr lFf" class="main-layout">
     <!-- <router-view name="navbar" /> -->
     <q-header elevated>
-      <q-toolbar class="main-toolbar  ">
+      <q-toolbar class="main-toolbar">
         <q-btn
           flat
           dense
@@ -13,7 +13,9 @@
         />
 
         <div class="q-px-lg q-pt-md q-mb-md">
-          <router-link to="/" class="logo-text text-white text- text-h5">TestTV</router-link>
+          <router-link to="/" class="logo-text text-white text- text-h5"
+            >TestTV</router-link
+          >
           <!-- <div class="text-subtitle1">{{ today }}</div> -->
         </div>
         <!-- <q-img src="../statics/plant.jpg" class="header-image absolute-top "> -->
@@ -25,7 +27,7 @@
             <div>Likey</div>
           </template>
         </q-toolbar-title> -->
-<!--
+        <!--
         <div>Quasar v{{ $q.version }}</div>
         <q-btn
           color="brown-5"
@@ -33,36 +35,38 @@
           glossy
           label="loading"
           /> -->
-        <q-space ></q-space>
-        <div>
-          <!-- <q-form @submit.prevent="onSubmitSearch">
-            <q-input v-model="searchText" dark filled type="search" class="" debounce="500">
-              <template v-slot:append>
-                <q-icon name="search" />
-              </template>
-            </q-input>
-          </q-form> -->
+        <q-tabs shrink stretch>
+          <!-- <q-tab name="tab1" label="戲劇" /> -->
+          <q-route-tab :to="{ name: 'dramas' }" exact label="戲劇" />
+
+          <q-tab name="tab2" label="動畫" />
+          <q-tab name="tab3" label="精選" />
+          <q-tab name="tab4" label="免費專區" />
+        </q-tabs>
+        <q-space></q-space>
+        <div class="q-mr-md">
           <SearchAcInput />
         </div>
-        <div>
 
+        <div class="q-mr-md">
+          <q-btn color="pink" v-if="$store.getters['userModule/user'].id === ''"
+            >註冊</q-btn
+          >
+        </div>
+        <div>
+          <q-btn v-if="$store.getters['userModule/user'].id === ''">登入</q-btn>
+          <UserDropdown v-else />
+        </div>
+        <!-- <div>
           <q-btn v-if="$store.getters['userModule/user'].id === ''">登入</q-btn>
           <UserDropdown v-else/>
-        </div>
+        </div> -->
       </q-toolbar>
     </q-header>
 
-    <q-drawer
-      v-model="rightDrawerOpen"
-      bordered
-      side="right"
-    >
+    <q-drawer v-model="leftDrawerOpen" bordered side="right">
       <q-list>
-        <q-item-label
-          header
-        >
-          Essential Links
-        </q-item-label>
+        <q-item-label header> Essential Links </q-item-label>
 
         <EssentialLink
           v-for="link in essentialLinks"
@@ -80,102 +84,71 @@
 </template>
 
 <script lang="ts">
+import { Vue, Component } from 'vue-property-decorator'
 import EssentialLink from 'components/EssentialLink.vue'
-import { date } from 'quasar'
-import Footer from './Footer.vue'
+import SearchAcInput from 'src/components/SearchAcInput.vue'
+import UserDropdown from 'src/components/user/UserDropdown.vue'
 
-const linksList = [
+const linksData = [
   {
-    title: '精選景點',
-    caption: null,
+    title: 'Docs',
+    caption: 'quasar.dev',
     icon: 'school',
-    link: 'https://quasar.dev'
+    link: 'https://quasar.dev',
   },
   {
-    title: '美食地圖',
-    caption: null,
+    title: 'Github',
+    caption: 'github.com/quasarframework',
     icon: 'code',
-    link: 'https://github.com/quasarframework'
+    link: 'https://github.com/quasarframework',
   },
   {
-    title: '夜宿曉行',
-    caption: null,
+    title: 'Discord Chat Channel',
+    caption: 'chat.quasar.dev',
     icon: 'chat',
-    link: 'https://chat.quasar.dev'
+    link: 'https://chat.quasar.dev',
   },
   {
-    title: '登入',
-    caption: null,
+    title: 'Forum',
+    caption: 'forum.quasar.dev',
     icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev'
+    link: 'https://forum.quasar.dev',
   },
   {
-    title: '註冊',
-    caption: null,
+    title: 'Twitter',
+    caption: '@quasarframework',
     icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
-  }
-  // {
-  //   title: 'Facebook',
-  //   caption: '@QuasarFramework',
-  //   icon: 'public',
-  //   link: 'https://facebook.quasar.dev'
-  // },
-  // {
-  //   title: 'Quasar Awesome',
-  //   caption: 'Community Quasar projects',
-  //   icon: 'favorite',
-  //   link: 'https://awesome.quasar.dev'
-  // }
+    link: 'https://twitter.quasar.dev',
+  },
+  {
+    title: 'Facebook',
+    caption: '@QuasarFramework',
+    icon: 'public',
+    link: 'https://facebook.quasar.dev',
+  },
+  {
+    title: 'Quasar Awesome',
+    caption: 'Community Quasar projects',
+    icon: 'favorite',
+    link: 'https://awesome.quasar.dev',
+  },
 ]
 
-import { computed, defineComponent, ref, watch } from 'vue'
-import { api } from 'src/boot/axios'
-import SearchAcInput from 'src/components/SearchAcInput.vue'
-import UserDropdown from '../components/UserDropdown.vue'
-
-export default defineComponent({
-  name: 'MainLayout',
-
+@Component({
   components: {
-    Footer,
-    UserDropdown,
+    EssentialLink,
     SearchAcInput,
-    EssentialLink
+    UserDropdown,
   },
-
-  setup () {
-    const rightDrawerOpen = ref(false)
-    const searchText = ref('')
-    const today = computed(() => {
-      console.log(date.formatDate(Date.now(), 'dddd D MMMM'))
-      return date.formatDate(Date.now(), 'dddd D MMMM')
-    })
-
-    console.log('today: ', today.value)
-
-    watch(() => searchText.value, (term) => {
-      console.log('term: ', term)
-      api.get(`/search_suggestions/${term}`).then((res) => {
-        console.log('res: ', res)
-      }).catch((err) => {
-        console.log(err)
-      })
-    })
-    return {
-      searchText,
-      essentialLinks: linksList,
-      rightDrawerOpen,
-      toggleLeftDrawer () {
-        rightDrawerOpen.value = !rightDrawerOpen.value
-      },
-      onSubmitSearch () {
-        console.log('searchText.value: ', searchText.value)
-      },
-      today
-    }
-  }
 })
+export default class MainLayout extends Vue {
+  leftDrawerOpen = false
+  essentialLinks = linksData
+
+  toggleLeftDrawer() {
+    this.leftDrawerOpen = !this.leftDrawerOpen
+  }
+}
 </script>
 
 <style lang="scss">
@@ -191,12 +164,11 @@ export default defineComponent({
     height: 100%;
     z-index: -1;
     opacity: 0.2;
-    filter:  grayscale(100%);
+    filter: grayscale(100%);
   }
 
   .logo-text {
     text-decoration: none;
   }
 }
-
 </style>

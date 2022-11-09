@@ -13,26 +13,76 @@ export interface UserDataType {
   name: string;
 }
 
-/* eslint-disable camelcase */
 export interface DramaType {
   id: number;
   title: string;
   img: string;
   rating: string;
   episode: string;
+  summary: string;
+  release_info: string;
+}
+
+export interface DramaQueryType {
+  dramas: DramaType [];
+  total:number;
+  total_page:number;
+}
+
+export interface DramaDetailType {
+  id: number;
+  title: string;
+  img: string;
+  rating: string;
+  episode: string;
+  summary: string;
+  release_info: string;
+  Series:  SerieType []
+  directors: DirectorType []
+  writers: WriterType []
+  themes: ThemeType []
+  Casts: CastType []
+}
+
+
+export interface CastType {
+  id: number;
+  name: string
+}
+
+export interface DirectorType {
+  id: number;
+  name: string;
+}
+
+export interface WriterType {
+  id: number;
+  name: string
+}
+
+export interface ThemeType {
+  id: number;
+  name: string
 }
 
 export interface HeadlineType {
-id: number;
-img:string;
-summary:string;
-topic:string;
-displayName:string;
-dominantColor:string;
-deeplink:string;
-titleId:string;
-createdAt:string;
-updatedAt:string;
+  id: number;
+  img:string;
+  summary:string;
+  topic:string;
+  displayName:string;
+  dominantColor:string;
+  deeplink:string;
+  titleId:string;
+  createdAt:string;
+  updatedAt:string;
+}
+
+export interface SerieType {
+  id:number
+  title:string
+  time:string
+  img:string
 }
 
 export interface DramaFormType {
@@ -47,4 +97,15 @@ release_year: number;
 cast_id: number [];
 // createdAt: string;
 // updatedAt: string;
+}
+
+
+export interface SuggestionType {
+  id: number;
+  name: string;
+}
+
+export interface ResponseData {
+  items: DramaType []
+  figure: CastType
 }
